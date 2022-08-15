@@ -1,0 +1,149 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "TextBlock",
+            "id": "Title",
+            "size": "Large",
+            "weight": "Bolder",
+            "text": "Hasan Abdal, PAKISTAN",
+            "isSubtle": true
+        },
+        {
+            "type": "TextBlock",
+            "id": "Date",
+            "spacing": "None",
+            "weight": "Bolder",
+            "text": "March 01, 8:30 AM Thursday",
+            "isSubtle": true
+        },
+        {
+            "type": "TextBlock",
+            "id": "Condition",
+            "weight": "Bolder",
+            "text": "Partly Cloudy",
+            "isSubtle": true
+        },
+        {
+            "type": "ColumnSet",
+            "id": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "id": "Icon",
+                            "url": "http://messagecardplayground.azurewebsites.net/assets/Mostly%20Cloudy-Square.png",
+                            "size": "Small"
+                        }
+                    ],
+                    "width": "auto"
+                },
+                {
+                    "type": "Column",
+                    "horizontalAlignment": "Center",
+                    "verticalContentAlignment": "Center",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "id": "Fahrenheit",
+                            "horizontalAlignment": "Center",
+                            "spacing": "None",
+                            "size": "Medium",
+                            "weight": "Bolder",
+                            "text": "42"
+                        }
+                    ],
+                    "width": "auto"
+                },
+                {
+                    "type": "Column",
+                    "horizontalAlignment": "Left",
+                    "spacing": "None",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "horizontalAlignment": "Left",
+                            "spacing": "Small",
+                            "weight": "Bolder",
+                            "text": "°F"
+                        }
+                    ],
+                    "width": "auto"
+                },
+                {
+                    "type": "Column",
+                    "horizontalAlignment": "Center",
+                    "spacing": "None",
+                    "verticalContentAlignment": "Center",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "spacing": "None",
+                            "size": "Medium",
+                            "weight": "Bolder",
+                            "text": "/"
+                        }
+                    ],
+                    "width": "auto"
+                },
+                {
+                    "type": "Column",
+                    "id": "Celsius",
+                    "horizontalAlignment": "Center",
+                    "spacing": "None",
+                    "verticalContentAlignment": "Center",
+                    "items": [
+                      {
+                        "type": "TextBlock",
+                        "horizontalAlignment": "Left",
+                        "size": "Medium",
+                        "weight": "Bolder",
+                        "text": "50"
+                      }
+                    ],
+                    "width": "auto"
+                },
+                {
+                    "type": "Column",
+                    "horizontalAlignment": "Left",
+                    "spacing": "None",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "horizontalAlignment": "Left",
+                            "weight": "Bolder",
+                            "text": "°C"
+                        }
+                    ],
+                    "width": "stretch"
+                },
+                {
+                    "type": "Column",
+                    "spacing": "None",
+                    "items": [
+                        {
+                            "type": "FactSet",
+                            "id": "Facts",
+                            "facts": [
+                                {
+                                    "title": "Humidity",
+                                    "value": "82%"
+                                },
+                                {
+                                    "title": "Wind",
+                                    "value": "11 m/s"
+                                }
+                            ]
+                        }
+                    ],
+                    "width": "auto"
+                }
+            ]
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.0",
+    "speak": "Well, here's the weather condition currently at Hasan Abdal, Pakistan."
+}

@@ -1,0 +1,1644 @@
+{
+  "luis_schema_version": "3.2.0",
+  "versionId": "Dispatch",
+  "name": "GurdwaraDispatch",
+  "desc": "",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "intents": [
+    {
+      "name": "ChitChatIntent"
+    },
+    {
+      "name": "GurdwaraLuisIntent"
+    },
+    {
+      "name": "GurdwaraQnAIntent"
+    },
+    {
+      "name": "None"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "address to gurdwara panja sahib corrections",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "are marriages arranged in the sikh tradition?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "are shoes allowed in gurdwara?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "are shorts allowed in gurudwara?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "are you a guy?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "are you a man or a woman?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "are you a man?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "are you busy?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "are you my fan?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "are you prettier than me?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "are you real or fake?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "are you skynet?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "are you smarter than me?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "are you young?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "ask me a question",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "ask me anything",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "ask me something",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "awesome videos",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "basic af",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "be funny",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "be more fun",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "bingo",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "but i know sikhs who do not wear turbans or keep their hair?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "bye",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "can a sikh girl cut her hair?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "can anyone visit a gurdwara?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "can i eat nonveg at gurdwara?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "can i fast at gurdwara?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "can i medidtate at gurdwara?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "can i see some photos of gurdwara?",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "can only sikhs visit the panja sahab?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "can we chat?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "can you ask me a question?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "can you count to a million?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "can you fly?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "can you give me the directions for panja gurdwara?",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "can you go to gurudwara in periods?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "can you play sports?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "can you please show me the temperature over the area?",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "can you show me some awesome photos of panja sahib?",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "can you show me some videos of gurdwara?",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "can you show me the list of festivals that sikhs celebrate?",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "can you show me the time table for chet?",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "can you sleep?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "can you sneeze?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "can you tell me the address of panja sahib",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "can you tell me the location of panja sahib",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "cook me something",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "current weather?",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "did sikh gurus eat meat?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "did sikh gurus get married?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "direction to panja sahib?",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "do foreigners visit this gurdwara?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "do i look okay?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "do sikhs believe all humans are equal spiritually too?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "do sikhs believe in equality of all humanity?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "do sikhs celebrate diwali?",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "do sikhs go to temple?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "do sikhs live a normal life, get married and have children, etc.?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "do the dogs bark",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "do the sikhs celebrate the martyrdom of guru arjan in sri panja sahib?",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "do you and cortana hang out?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "do you believe in love?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "do you dream?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "do you eat?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "do you get hungry?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "do you get tired?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "do you have a gallery to show me",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "do you have a girlfriend?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "do you have any collection of pictures of this panja sahib",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "do you have any gallery to show",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "do you have any panja videos?",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "do you have any videos?",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "do you have boogers?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "do you have siblings?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "do you have sisters?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "do you know alexa?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "do you know other bots?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "do you know other chatbots?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "do you know other digital agents?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "do you know when sikhs celebrate gurpurab?",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "do you like apples?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "do you like baseball?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "do you love anyone?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "do you prefer red or blue?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "do you smell?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "do you spend time in your garden?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "do you sweat?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "don't you ever sleep?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "false",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "get a life bot?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "get for me gurdwara panja sahib street address",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "get for me the weather conditions in gurdwara panja sahib",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "get for me the weather of hassan abdal",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "get me some cool films for panja sahib.",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "get panja sahib temperature",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "get the daily temperature gurdwara panja sahib",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "get the weather at gurdwara",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "getting tired of you",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "go away",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "good morning",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "goodbye",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "gurdwara panja sahib address please",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "gurdwara videos",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "hahaha",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "have you met cortana?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "hello",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "hi",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "hi there!",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "how can i attain salvation?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "how did guru gobind singh create the khalsa?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "how do sikhs greet each other?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "how do sikhs worship?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "how happy are you?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "how high can you jump?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "how is sikhism a direct way to meet god?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "how is sikhism different from other religions?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "how many hukamnama are performed at the gurdwara?",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "how many sikh gods are there?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "how many times do the sikhs visit the panja sahab in a year?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "how many verses do i need to read daily?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "how many wives can sikhs have?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "i can't find panja sahib",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "i can't reach panja sahib",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "i 'd like to watch some videos of panja sahib",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "i hate you",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "i want directions",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "i want picture",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "i want to get directions for sri panja sahib",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "i want to have fun",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "i want to know about afterlife?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "i want to know information about sikh celebrations",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "i want to know the five articles of faith?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "i want to know the routine in phaggan.",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "i want to know the weather over there",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "i want to see some videos before i visit this gurdwara",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "i want to visit the gurdwara at maghi",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "i wonder if you have some films of the holy place",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "i'm interested in photography of panja sahib",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "i'm tired of you",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "image of gurdwara",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "images",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "in september, what are the timings for kiwad?",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "in which gurdwara worship services, visitors are allowed to take part?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "is gurpurab celebrated in panja sahib?",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "is langar served in gurdwara?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "is the facility to stay available in panja sahab?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "is there a heaven and hell?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "it wolud be better if you show me videos instead",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "i've never seen this gurdwara before",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "location of gurdwara panja sahib please",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "location of panja?",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "lol",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "morning",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "not funny",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "oh",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "okay",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "order me two pizzas",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "pardon",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "photos please",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "pics",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "pictures please",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "please show me some images of gurdwara",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "please tell me where panja sahib can be found",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "relate sikhism with science?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "retrieve the videos that you have for sri panja sahib",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "say something ridiculous",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "show me a list of popular movies",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "show me a list of sikh festivals",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "show me a list of sikh holidays",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "show me how much time i have before kirtan",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "show me some cool pictures",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "show me some photos",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "show me some stuff, like videos, of that place",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "show me the day of martyrdom of guru arjan.",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "show me the day when bandi chhor divas is celebrated",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "show me the location for gurdwara",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "show me the schedule for poh.",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "show me today's schedule",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "show me tomorrow hukamnama time",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "show me videos",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "show the images",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "shush!",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "sounds good",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "tell me a joke",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "tell me something about amrit?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "tell me the current weather in panja sahib",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "tell me the daily routine of gurdwara",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "temperature of gurdwara panja sahib please",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "that's inaccurate",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "useless",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "video of gurdwara",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "video of hasan abdal gurdwara",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "videos",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "were sikh gurus vegetarian?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what age are you?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "what are the five articles of faith?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what are the five vices?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what are the rooms in a gurdwara?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what are the rules in a gurdwara?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what are the rules sikhs follow?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what are the sikh beliefs?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what are you doing tomorrow?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "what can you do?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "what can you help me with?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "what did guru nanak dev ji say about meat?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what do i need to develop at gurdwara?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what do sikhs believe about the afterlife?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what do sikhs say about equality?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what do sikhs say about rights?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what do you know about lifestyle in sikhism?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what do you think about bots?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "what do you think about love?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "what do you want to know about me?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "what does god look like?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what does guru granth sahib ji say about meat?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what does panja mean?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what does sikh mean?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what does sikhism say about sharing?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what does this gurdwara look like",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "what events are gonig to be held today?",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "what happens after death?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what happens during sikh worship?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what happens in a gurdwara?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what is a purpose of my life?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what is a takht in sikhism?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what is amrit?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what is celebrated on november 12?",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "what is done at panja sahib?",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "what is gurdwara?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what is kesh?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what is kirat karni?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what is sikhism and who are the sikhs?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what is special about gurdwara panja sahib?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what is the appropriate head covering for sikh women?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what is the gurdwara and langar?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what is the important of guru granth scripture?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what is the role and status of women in sikh society?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what is the routine of panja sahib?",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "what is the routine of this gurdwara",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "what is the sikh book called?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what is the sikh language?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what is the sikh name for god?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what is the symbol of sikhism?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what is the timing of ardas?",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "what is the timing of evening scripture?",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "what is the weather at panja sahib?",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "what is the weather in hasan abdal?",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "what is worshipped in gurdwara?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what kind of food should we eat?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what kind of lifestyle do sikhs have?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what kinds of things can you do?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "what should i keep in mind to be a good sikh?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what should i wear for gurudwara?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what things should keep in mind if someone thinking of visiting a gurdwara panja sahab?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what worship and life one has to follow after taking amrit?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what you know about meditation?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what you need to know before visiting a gurdwara sahib?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "what's going on?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "what's new?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "what's the temperature is hassan abdal?",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "what's the weather like in panja sahib",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "what's your age?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "what's your boss' name?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "what's your favorite color?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "what's your favorite song?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "what's your gender?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "what's your name?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "what's your opinion of me?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "when do people visit gurdwara?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "when does gurbani start?",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "when does hukamama begin?",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "when does hukamnama start?",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "when does kirtan start?",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "when in birthday of guru angad dev celebrated?",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "when is kirtan starting?",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "when is the birthday of sri guru granth sahib ji celebrated?",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "when is vaisakhi celebrated?",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "when was the guru granth sahib written?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "when were you born?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "when will be vaisakhi celebrated this year?",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "where are the images",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "where can i find gurdwara panja sahib?",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "where can i find panja sahib",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "where do sikhs come from?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "where is daily routine listings?",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "where is gurdwara located?",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "where is gurdwara panja sahib location",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "where is panja sahib",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "where is this gurdwara?",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "where'd you come from?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "where's your house?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "which color of turban should i wear?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "which task do i perform today?",
+      "intent": "GurdwaraLuisIntent",
+      "entities": []
+    },
+    {
+      "text": "which type of food is served at sikh community kitchens?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "who are sikh gurus and how does one become a guru?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "who are you?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "who built the gurdwara panja sahab?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "who is guru?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "who's your dad?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "who's your master?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "who's your mom?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "why are you so boring?",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "why do men and women sit on the separate sides in the gurdwara sahib?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "why do sikh women have kaur in their names?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "why do sikhs have singh in their names?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "why do sikhs keep hair?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "why do some names end in ji or sahib?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "why do you have to cover your head in a gurdwara?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "why is sewa important?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "why sikh cover their head?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "why sikhs do not cut their hair but they cut their nails?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "why we should not believe in superstitions?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "will god hate us if we drink or smoke?",
+      "intent": "GurdwaraQnAIntent",
+      "entities": []
+    },
+    {
+      "text": "you are a genius!",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "you are so not pretty",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "you don't interest me at all",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "you're no fun",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "you're so cool",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "you're so happy",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "you're useless",
+      "intent": "ChitChatIntent",
+      "entities": []
+    },
+    {
+      "text": "you're welcome",
+      "intent": "ChitChatIntent",
+      "entities": []
+    }
+  ],
+  "settings": []
+}

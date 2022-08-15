@@ -1,0 +1,34 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "TextBlock",
+      "weight": "Bolder",
+      "text": "Popular Visiting Hours"
+    },
+    {
+      "type": "Image",
+      "id": "image",
+      "url": "https://pp.userapi.com/c851324/v851324365/11d21e/qVsHdnEWVj0.jpg"
+    },
+    {
+      "type": "TextBlock",
+      "id": "day",
+      "size": "Medium",
+      "weight": "Bolder",
+      "text": "Mondays"
+    },
+    {
+      "type": "TextBlock",
+      "id": "timings",
+      "text": "**Timings:**     9:00 AM - 9:00 PM"
+    },
+    {
+      "type": "TextBlock",
+      "id": "bestHour",
+      "text": "**Best Hour:** 2:00 PM"
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}

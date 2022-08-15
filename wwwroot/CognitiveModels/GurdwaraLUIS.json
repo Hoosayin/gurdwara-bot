@@ -1,0 +1,967 @@
+{
+  "luis_schema_version": "3.2.0",
+  "versionId": "0.1",
+  "name": "GurdwaraLUIS",
+  "desc": "",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "intents": [
+    {
+      "name": "GetAddress"
+    },
+    {
+      "name": "GetFestivalInformation"
+    },
+    {
+      "name": "GetMedia"
+    },
+    {
+      "name": "GetRoutineInformation"
+    },
+    {
+      "name": "GetWeatherCondition"
+    },
+    {
+      "name": "None"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Image",
+      "roles": []
+    },
+    {
+      "name": "Video",
+      "roles": []
+    }
+  ],
+  "composites": [],
+  "closedLists": [
+    {
+      "name": "RoutineTask",
+      "subLists": [
+        {
+          "canonicalForm": "Kiwad",
+          "list": []
+        },
+        {
+          "canonicalForm": "kirtan",
+          "list": []
+        },
+        {
+          "canonicalForm": "Asa di var",
+          "list": []
+        },
+        {
+          "canonicalForm": "departure of palki sahib",
+          "list": []
+        },
+        {
+          "canonicalForm": "hukamnama",
+          "list": [
+            "hukamama"
+          ]
+        },
+        {
+          "canonicalForm": "ardas",
+          "list": []
+        },
+        {
+          "canonicalForm": "sukh-asan Sahib",
+          "list": []
+        },
+        {
+          "canonicalForm": "Asa di war",
+          "list": []
+        },
+        {
+          "canonicalForm": "Gurbani",
+          "list": [
+            "gurbani",
+            "hyms"
+          ]
+        },
+        {
+          "canonicalForm": "Rehras",
+          "list": [
+            "Evening Scripture"
+          ]
+        }
+      ],
+      "roles": []
+    },
+    {
+      "name": "SikhFestival",
+      "subLists": [
+        {
+          "canonicalForm": "Vaisakhi",
+          "list": [
+            "Baisakhi",
+            "Vaishakhi",
+            "Vasakhi",
+            "vaisakhi"
+          ]
+        },
+        {
+          "canonicalForm": "Gurpurab",
+          "list": [
+            "guru nanak gurpurab",
+            "guru nanak's birth anniversary",
+            "parkash guru nanak dev ji",
+            "guru nanak's prakash utsav",
+            "guru nanak jayanti",
+            "birthday of guru nanak"
+          ]
+        },
+        {
+          "canonicalForm": "Maghi",
+          "list": [
+            "Mela Maghi"
+          ]
+        },
+        {
+          "canonicalForm": "Martyrdom of Guru Arjan Dev",
+          "list": [
+            "martyrdom of guru arjan",
+            "martyrdom of arjan dev"
+          ]
+        },
+        {
+          "canonicalForm": "Bandi Chhor Divas",
+          "list": [
+            "Diwali",
+            "Day of Liberation"
+          ]
+        },
+        {
+          "canonicalForm": "hola mohalla",
+          "list": [
+            "hola"
+          ]
+        },
+        {
+          "canonicalForm": "Parkash Utsav Dasveh Patshah",
+          "list": [
+            "Guru Gobind Singh Jayanti"
+          ]
+        }
+      ],
+      "roles": []
+    },
+    {
+      "name": "SikhMonth",
+      "subLists": [
+        {
+          "canonicalForm": "Chet",
+          "list": []
+        },
+        {
+          "canonicalForm": "Vaisakh",
+          "list": []
+        },
+        {
+          "canonicalForm": "Jeth",
+          "list": []
+        },
+        {
+          "canonicalForm": "Harh",
+          "list": []
+        },
+        {
+          "canonicalForm": "Sawan",
+          "list": []
+        },
+        {
+          "canonicalForm": "Bhadon",
+          "list": []
+        },
+        {
+          "canonicalForm": "Assu",
+          "list": []
+        },
+        {
+          "canonicalForm": "Kattak",
+          "list": []
+        },
+        {
+          "canonicalForm": "Maggar",
+          "list": []
+        },
+        {
+          "canonicalForm": "Poh",
+          "list": []
+        },
+        {
+          "canonicalForm": "Magh",
+          "list": []
+        },
+        {
+          "canonicalForm": "Phaggan",
+          "list": []
+        }
+      ],
+      "roles": []
+    }
+  ],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "address to gurdwara panja sahib corrections",
+      "intent": "GetAddress",
+      "entities": []
+    },
+    {
+      "text": "awesome videos",
+      "intent": "GetMedia",
+      "entities": [
+        {
+          "entity": "Video",
+          "startPos": 8,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "can i see some photos of gurdwara?",
+      "intent": "GetMedia",
+      "entities": [
+        {
+          "entity": "Image",
+          "startPos": 15,
+          "endPos": 20
+        }
+      ]
+    },
+    {
+      "text": "can you give me the directions for panja gurdwara?",
+      "intent": "GetAddress",
+      "entities": []
+    },
+    {
+      "text": "can you please show me the temperature over the area?",
+      "intent": "GetWeatherCondition",
+      "entities": []
+    },
+    {
+      "text": "can you show me some awesome photos of panja sahib?",
+      "intent": "GetMedia",
+      "entities": [
+        {
+          "entity": "Image",
+          "startPos": 29,
+          "endPos": 34
+        }
+      ]
+    },
+    {
+      "text": "can you show me some videos of gurdwara?",
+      "intent": "GetMedia",
+      "entities": [
+        {
+          "entity": "Video",
+          "startPos": 21,
+          "endPos": 26
+        }
+      ]
+    },
+    {
+      "text": "can you show me the list of festivals that sikhs celebrate?",
+      "intent": "GetFestivalInformation",
+      "entities": []
+    },
+    {
+      "text": "can you show me the time table for chet?",
+      "intent": "GetRoutineInformation",
+      "entities": []
+    },
+    {
+      "text": "can you tell me the address of panja sahib",
+      "intent": "GetAddress",
+      "entities": []
+    },
+    {
+      "text": "can you tell me the location of panja sahib",
+      "intent": "GetAddress",
+      "entities": []
+    },
+    {
+      "text": "current weather?",
+      "intent": "GetWeatherCondition",
+      "entities": []
+    },
+    {
+      "text": "direction to panja sahib?",
+      "intent": "GetAddress",
+      "entities": []
+    },
+    {
+      "text": "do sikhs celebrate diwali?",
+      "intent": "GetFestivalInformation",
+      "entities": []
+    },
+    {
+      "text": "do the dogs bark",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "do the sikhs celebrate the martyrdom of guru arjan in sri panja sahib?",
+      "intent": "GetFestivalInformation",
+      "entities": []
+    },
+    {
+      "text": "do you have a gallery to show me",
+      "intent": "GetMedia",
+      "entities": [
+        {
+          "entity": "Image",
+          "startPos": 14,
+          "endPos": 20
+        }
+      ]
+    },
+    {
+      "text": "do you have any collection of pictures of this panja sahib",
+      "intent": "GetMedia",
+      "entities": [
+        {
+          "entity": "Image",
+          "startPos": 30,
+          "endPos": 37
+        }
+      ]
+    },
+    {
+      "text": "do you have any gallery to show",
+      "intent": "GetMedia",
+      "entities": [
+        {
+          "entity": "Image",
+          "startPos": 16,
+          "endPos": 22
+        }
+      ]
+    },
+    {
+      "text": "do you have any panja videos?",
+      "intent": "GetMedia",
+      "entities": [
+        {
+          "entity": "Video",
+          "startPos": 22,
+          "endPos": 27
+        }
+      ]
+    },
+    {
+      "text": "get for me gurdwara panja sahib street address",
+      "intent": "GetAddress",
+      "entities": []
+    },
+    {
+      "text": "get for me the weather conditions in gurdwara panja sahib",
+      "intent": "GetWeatherCondition",
+      "entities": []
+    },
+    {
+      "text": "get for me the weather of hassan abdal",
+      "intent": "GetWeatherCondition",
+      "entities": []
+    },
+    {
+      "text": "get me some cool films for panja sahib.",
+      "intent": "GetMedia",
+      "entities": [
+        {
+          "entity": "Video",
+          "startPos": 17,
+          "endPos": 21
+        }
+      ]
+    },
+    {
+      "text": "get panja sahib temperature",
+      "intent": "GetWeatherCondition",
+      "entities": []
+    },
+    {
+      "text": "get the daily temperature gurdwara panja sahib",
+      "intent": "GetWeatherCondition",
+      "entities": []
+    },
+    {
+      "text": "get the weather at gurdwara",
+      "intent": "GetWeatherCondition",
+      "entities": []
+    },
+    {
+      "text": "gurdwara panja sahib address please",
+      "intent": "GetAddress",
+      "entities": []
+    },
+    {
+      "text": "gurdwara videos",
+      "intent": "GetMedia",
+      "entities": [
+        {
+          "entity": "Video",
+          "startPos": 9,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "hello",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hi",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "how many hukamnama are performed at the gurdwara?",
+      "intent": "GetRoutineInformation",
+      "entities": []
+    },
+    {
+      "text": "i can't find panja sahib",
+      "intent": "GetAddress",
+      "entities": []
+    },
+    {
+      "text": "i can't reach panja sahib",
+      "intent": "GetAddress",
+      "entities": []
+    },
+    {
+      "text": "i 'd like to watch some videos of panja sahib",
+      "intent": "GetMedia",
+      "entities": [
+        {
+          "entity": "Video",
+          "startPos": 24,
+          "endPos": 29
+        }
+      ]
+    },
+    {
+      "text": "i want directions",
+      "intent": "GetAddress",
+      "entities": []
+    },
+    {
+      "text": "i want picture",
+      "intent": "GetMedia",
+      "entities": [
+        {
+          "entity": "Image",
+          "startPos": 7,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "i want to get directions for sri panja sahib",
+      "intent": "GetAddress",
+      "entities": []
+    },
+    {
+      "text": "i want to have fun",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i want to know information about sikh celebrations",
+      "intent": "GetFestivalInformation",
+      "entities": []
+    },
+    {
+      "text": "i want to know the routine in phaggan.",
+      "intent": "GetRoutineInformation",
+      "entities": []
+    },
+    {
+      "text": "i want to know the weather over there",
+      "intent": "GetWeatherCondition",
+      "entities": []
+    },
+    {
+      "text": "i want to see some videos before i visit this gurdwara",
+      "intent": "GetMedia",
+      "entities": [
+        {
+          "entity": "Video",
+          "startPos": 19,
+          "endPos": 24
+        }
+      ]
+    },
+    {
+      "text": "i want to visit the gurdwara at maghi",
+      "intent": "GetFestivalInformation",
+      "entities": []
+    },
+    {
+      "text": "i wonder if you have some films of the holy place",
+      "intent": "GetMedia",
+      "entities": [
+        {
+          "entity": "Video",
+          "startPos": 26,
+          "endPos": 30
+        }
+      ]
+    },
+    {
+      "text": "i'm interested in photography of panja sahib",
+      "intent": "GetMedia",
+      "entities": [
+        {
+          "entity": "Image",
+          "startPos": 18,
+          "endPos": 28
+        }
+      ]
+    },
+    {
+      "text": "image of gurdwara",
+      "intent": "GetMedia",
+      "entities": [
+        {
+          "entity": "Image",
+          "startPos": 0,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "in september, what are the timings for kiwad?",
+      "intent": "GetRoutineInformation",
+      "entities": []
+    },
+    {
+      "text": "is gurpurab celebrated in panja sahib?",
+      "intent": "GetFestivalInformation",
+      "entities": []
+    },
+    {
+      "text": "it wolud be better if you show me videos instead",
+      "intent": "GetMedia",
+      "entities": [
+        {
+          "entity": "Video",
+          "startPos": 34,
+          "endPos": 39
+        }
+      ]
+    },
+    {
+      "text": "i've never seen this gurdwara before",
+      "intent": "GetMedia",
+      "entities": [
+        {
+          "entity": "Image",
+          "startPos": 5,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "location of gurdwara panja sahib please",
+      "intent": "GetAddress",
+      "entities": []
+    },
+    {
+      "text": "location of panja?",
+      "intent": "GetAddress",
+      "entities": []
+    },
+    {
+      "text": "oh",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "okay",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "order me two pizzas",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "pics",
+      "intent": "GetMedia",
+      "entities": [
+        {
+          "entity": "Image",
+          "startPos": 0,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "pictures please",
+      "intent": "GetMedia",
+      "entities": [
+        {
+          "entity": "Image",
+          "startPos": 0,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "please show me some images of gurdwara",
+      "intent": "GetMedia",
+      "entities": [
+        {
+          "entity": "Image",
+          "startPos": 20,
+          "endPos": 25
+        }
+      ]
+    },
+    {
+      "text": "please tell me where panja sahib can be found",
+      "intent": "GetAddress",
+      "entities": []
+    },
+    {
+      "text": "retrieve the videos that you have for sri panja sahib",
+      "intent": "GetMedia",
+      "entities": [
+        {
+          "entity": "Video",
+          "startPos": 13,
+          "endPos": 18
+        }
+      ]
+    },
+    {
+      "text": "send me pics",
+      "intent": "GetMedia",
+      "entities": [
+        {
+          "entity": "Image",
+          "startPos": 8,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "send me the schedule for jeth",
+      "intent": "GetRoutineInformation",
+      "entities": []
+    },
+    {
+      "text": "show me a list of popular movies",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "show me a list of sikh festivals",
+      "intent": "GetFestivalInformation",
+      "entities": []
+    },
+    {
+      "text": "show me a list of sikh holidays",
+      "intent": "GetFestivalInformation",
+      "entities": []
+    },
+    {
+      "text": "show me how much time i have before kirtan",
+      "intent": "GetRoutineInformation",
+      "entities": []
+    },
+    {
+      "text": "show me some cool pictures",
+      "intent": "GetMedia",
+      "entities": [
+        {
+          "entity": "Image",
+          "startPos": 18,
+          "endPos": 25
+        }
+      ]
+    },
+    {
+      "text": "show me some photos",
+      "intent": "GetMedia",
+      "entities": [
+        {
+          "entity": "Image",
+          "startPos": 13,
+          "endPos": 18
+        }
+      ]
+    },
+    {
+      "text": "show me some stuff, like videos, of that place",
+      "intent": "GetMedia",
+      "entities": [
+        {
+          "entity": "Video",
+          "startPos": 25,
+          "endPos": 30
+        }
+      ]
+    },
+    {
+      "text": "show me the day of martyrdom of guru arjan.",
+      "intent": "GetFestivalInformation",
+      "entities": []
+    },
+    {
+      "text": "show me the day when bandi chhor divas is celebrated",
+      "intent": "GetFestivalInformation",
+      "entities": []
+    },
+    {
+      "text": "show me the location for gurdwara",
+      "intent": "GetAddress",
+      "entities": []
+    },
+    {
+      "text": "show me the schedule for poh.",
+      "intent": "GetRoutineInformation",
+      "entities": []
+    },
+    {
+      "text": "show me tomorrow hukamnama time",
+      "intent": "GetRoutineInformation",
+      "entities": []
+    },
+    {
+      "text": "show me videos",
+      "intent": "GetMedia",
+      "entities": [
+        {
+          "entity": "Video",
+          "startPos": 8,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "show the images",
+      "intent": "GetMedia",
+      "entities": [
+        {
+          "entity": "Image",
+          "startPos": 9,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "tell me the current weather in panja sahib",
+      "intent": "GetWeatherCondition",
+      "entities": []
+    },
+    {
+      "text": "tell me the daily routine of gurdwara",
+      "intent": "GetRoutineInformation",
+      "entities": []
+    },
+    {
+      "text": "temperature of gurdwara panja sahib please",
+      "intent": "GetWeatherCondition",
+      "entities": []
+    },
+    {
+      "text": "video of gurdwara",
+      "intent": "GetMedia",
+      "entities": [
+        {
+          "entity": "Video",
+          "startPos": 0,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "video of hasan abdal gurdwara",
+      "intent": "GetMedia",
+      "entities": [
+        {
+          "entity": "Video",
+          "startPos": 0,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "what does this gurdwara look like",
+      "intent": "GetMedia",
+      "entities": [
+        {
+          "entity": "Image",
+          "startPos": 24,
+          "endPos": 32
+        }
+      ]
+    },
+    {
+      "text": "what events are gonig to be held today?",
+      "intent": "GetRoutineInformation",
+      "entities": []
+    },
+    {
+      "text": "what is celebrated on november 12?",
+      "intent": "GetFestivalInformation",
+      "entities": []
+    },
+    {
+      "text": "what is done at panja sahib?",
+      "intent": "GetRoutineInformation",
+      "entities": []
+    },
+    {
+      "text": "what is the routine of panja sahib?",
+      "intent": "GetRoutineInformation",
+      "entities": []
+    },
+    {
+      "text": "what is the routine of this gurdwara",
+      "intent": "GetRoutineInformation",
+      "entities": []
+    },
+    {
+      "text": "what is the timing of ardas?",
+      "intent": "GetRoutineInformation",
+      "entities": []
+    },
+    {
+      "text": "what is the timing of evening scripture?",
+      "intent": "GetRoutineInformation",
+      "entities": []
+    },
+    {
+      "text": "what is the weather at panja sahib?",
+      "intent": "GetWeatherCondition",
+      "entities": []
+    },
+    {
+      "text": "what is the weather in hasan abdal?",
+      "intent": "GetWeatherCondition",
+      "entities": []
+    },
+    {
+      "text": "what's the temperature is hassan abdal?",
+      "intent": "GetWeatherCondition",
+      "entities": []
+    },
+    {
+      "text": "what's the weather like in panja sahib",
+      "intent": "GetWeatherCondition",
+      "entities": []
+    },
+    {
+      "text": "when does gurbani start?",
+      "intent": "GetRoutineInformation",
+      "entities": []
+    },
+    {
+      "text": "when does hukamama begin?",
+      "intent": "GetRoutineInformation",
+      "entities": []
+    },
+    {
+      "text": "when does hukamnama start?",
+      "intent": "GetRoutineInformation",
+      "entities": []
+    },
+    {
+      "text": "when does kirtan start?",
+      "intent": "GetRoutineInformation",
+      "entities": []
+    },
+    {
+      "text": "when in birthday of guru angad dev celebrated?",
+      "intent": "GetFestivalInformation",
+      "entities": []
+    },
+    {
+      "text": "when is kirtan starting?",
+      "intent": "GetRoutineInformation",
+      "entities": []
+    },
+    {
+      "text": "when is the birthday of sri guru granth sahib ji celebrated?",
+      "intent": "GetFestivalInformation",
+      "entities": []
+    },
+    {
+      "text": "when is vaisakhi celebrated?",
+      "intent": "GetFestivalInformation",
+      "entities": []
+    },
+    {
+      "text": "when will be vaisakhi celebrated this year?",
+      "intent": "GetFestivalInformation",
+      "entities": []
+    },
+    {
+      "text": "where are the images",
+      "intent": "GetMedia",
+      "entities": [
+        {
+          "entity": "Image",
+          "startPos": 14,
+          "endPos": 19
+        }
+      ]
+    },
+    {
+      "text": "where can i find gurdwara panja sahib?",
+      "intent": "GetAddress",
+      "entities": []
+    },
+    {
+      "text": "where can i find panja sahib",
+      "intent": "GetAddress",
+      "entities": []
+    },
+    {
+      "text": "where is daily routine listings?",
+      "intent": "GetRoutineInformation",
+      "entities": []
+    },
+    {
+      "text": "where is gurdwara located?",
+      "intent": "GetAddress",
+      "entities": []
+    },
+    {
+      "text": "where is gurdwara panja sahib location",
+      "intent": "GetAddress",
+      "entities": []
+    },
+    {
+      "text": "where is panja sahib",
+      "intent": "GetAddress",
+      "entities": []
+    },
+    {
+      "text": "where is this gurdwara?",
+      "intent": "GetAddress",
+      "entities": []
+    },
+    {
+      "text": "which task do i perform today?",
+      "intent": "GetRoutineInformation",
+      "entities": []
+    }
+  ],
+  "settings": []
+}

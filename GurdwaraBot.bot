@@ -1,0 +1,18 @@
+{
+    "name": "GurdwaraBot",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "appId": "87bd7942-03d1-43a8-955a-e271b69659cd",
+            "appPassword": "8nC.geBcv8Bg>F:Qj.snI%$Mi+Z&(",
+            "endpoint": "http://localhost:3978/api/messages",
+            "id": "17eb4610-785c-11e9-93ef-bf6657f8ae73",
+            "name": "http://localhost:3978/api/messages"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "overrides": null,
+    "path": "C:\\Users\\Husai\\source\\repos\\PanjaSahibBot\\GurdwaraBot.bot"
+}

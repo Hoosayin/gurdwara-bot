@@ -1,0 +1,84 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Image",
+      "url": "https://pp.userapi.com/c849024/v849024669/14987b/cxlcIjl9HSo.jpg"
+    },
+    {
+      "type": "TextBlock",
+      "size": "ExtraLarge",
+      "weight": "Bolder",
+      "text": "The Daily Routine"
+    },
+    {
+      "type": "TextBlock",
+      "id": "name",
+      "separator": true,
+      "size": "Large",
+      "weight": "Bolder",
+      "text": "Chet"
+    },
+    {
+      "type": "TextBlock",
+      "id": "duration",
+      "size": "Medium",
+      "weight": "Bolder",
+      "text": "March 14 - April 13",
+      "isSubtle": true
+    },
+    {
+      "type": "FactSet",
+      "id": "facts",
+      "facts": [
+        {
+          "title": "Kiwad (Portals) Opening Time:",
+          "value": "2:30 AM"
+        },
+        {
+          "title": "Kirtan:",
+          "value": "2:30 AM"
+        },
+        {
+          "title": "Asa Di Var:",
+          "value": "3:30 AM"
+        },
+        {
+          "title": "Departure of Palki Sahib from Sri Akal Takhat Sahib:",
+          "value": "4:30 AM"
+        },
+        {
+          "title": "First Hukamnama:",
+          "value": "5:00 AM"
+        },
+        {
+          "title": "First Ardas:",
+          "value": "5:30 AM"
+        },
+        {
+          "title": "Asa Di War Samapti:",
+          "value": "6:30 AM"
+        },
+        {
+          "title": "Second Ardas and Hukamnama:",
+          "value": "6:45 AM"
+        },
+        {
+          "title": "Hukamnama at Night:",
+          "value": "9:45 PM"
+        },
+        {
+          "title": "Departure of Palki Sahib fromSri Harimandir Sahib:",
+          "value": "10:00 PM"
+        },
+        {
+          "title": "Sukh-Aasan Sahib at Sri Akal Takhat Sahib:",
+          "value": "10:15 PM"
+        }
+      ]
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0",
+  "speak": "There is a continuous singing of Gurbani Kirtan at Sri Panja Sahib from the opening of its portals to their closing."
+}

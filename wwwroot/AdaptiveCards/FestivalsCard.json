@@ -1,0 +1,62 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Image",
+      "url": "https://pp.userapi.com/c845121/v845121470/1bed53/naTujAylctI.jpg"
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "size": "Large",
+          "weight": "Bolder",
+          "text": "The Sikh Festivals"
+        },
+        {
+          "type": "TextBlock",
+          "text": "Some of the Sikh festivals celebrated are listed below.",
+          "wrap": true
+        },
+        {
+          "type": "FactSet",
+          "separator": true,
+          "facts": [
+            {
+              "title": "Vaisakhi | Baisakhi",
+              "value": "April 14"
+            },
+            {
+              "title": "Guru Nanak Gurpurab",
+              "value": "November 12"
+            },
+            {
+              "title": "Maghi",
+              "value": "January 14"
+            },
+            {
+              "title": "Martyrdom of Guru Arjan Dev (Holiday)",
+              "value": "June 16"
+            },
+            {
+              "title": "Bandi Chhor Divas",
+              "value": "October 12"
+            },
+            {
+              "title": "Hola Mohalla",
+              "value": "March 22 (May Vary)"
+            },
+            {
+              "title": "Parkash Utsav Dasveh Patshah",
+              "value": "January 2 (May Vary)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0",
+  "speak": "This is the list of festivals observed by the followers of Sikh religion."
+}

@@ -1,0 +1,64 @@
+﻿{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Image",
+      "id": "image",
+      "horizontalAlignment": "Center",
+      "spacing": "None",
+      "style": "Person",
+      "url": "https://gurdwarainformationbot.scm.azurewebsites.net/api/vfs/site/wwwroot/images/welcome_card_image.png",
+      "size": "Medium"
+    },
+    {
+      "type": "TextBlock",
+      "horizontalAlignment": "Center",
+      "spacing": "Small",
+      "size": "Medium",
+      "weight": "Bolder",
+      "color": "Accent",
+      "text": "Welcome to Gurdwara Bot",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "horizontalAlignment": "Left",
+      "spacing": "None",
+      "text": "Hi there! I'm the Sri Panja Sahib's support bot. What can I help you with today? Just so you know, you can enter **MENU** anytime you want to go back to the options below, or just go ahead type your query.",
+      "wrap": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Get an Overview",
+      "data": {
+        "dataId": "overview"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Ask a Question",
+      "data": {
+        "dataId": "question"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Book a Room",
+      "data": {
+        "dataId": "room"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Give a Feedback",
+      "data": {
+        "dataId": "feedback"
+      }
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0",
+  "speak": "Hi there! I'm the Sri Panja Sahib's support bot. What can I help you with today? Just so you know, you can enter **MENU** anytime you want to go back to the options below, or just go ahead type your query."
+}

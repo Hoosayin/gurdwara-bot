@@ -1,0 +1,256 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <UserSecretsId>a4f5e98d-0468-4915-b3f5-bb6d270edf95</UserSecretsId>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\images\AdaptiveCardImages\**" />
+    <Compile Remove="wwwroot\images\Gallery\**" />
+    <Compile Remove="wwwroot\images\GuestHouses\**" />
+    <Compile Remove="wwwroot\images\SikhFestivals\**" />
+    <Compile Remove="wwwroot\images\VideoThumbnails\**" />
+    <Compile Remove="wwwroot\images\Weather\**" />
+    <Content Remove="wwwroot\images\AdaptiveCardImages\**" />
+    <Content Remove="wwwroot\images\Gallery\**" />
+    <Content Remove="wwwroot\images\GuestHouses\**" />
+    <Content Remove="wwwroot\images\SikhFestivals\**" />
+    <Content Remove="wwwroot\images\VideoThumbnails\**" />
+    <Content Remove="wwwroot\images\Weather\**" />
+    <EmbeddedResource Remove="wwwroot\images\AdaptiveCardImages\**" />
+    <EmbeddedResource Remove="wwwroot\images\Gallery\**" />
+    <EmbeddedResource Remove="wwwroot\images\GuestHouses\**" />
+    <EmbeddedResource Remove="wwwroot\images\SikhFestivals\**" />
+    <EmbeddedResource Remove="wwwroot\images\VideoThumbnails\**" />
+    <EmbeddedResource Remove="wwwroot\images\Weather\**" />
+    <None Remove="wwwroot\images\AdaptiveCardImages\**" />
+    <None Remove="wwwroot\images\Gallery\**" />
+    <None Remove="wwwroot\images\GuestHouses\**" />
+    <None Remove="wwwroot\images\SikhFestivals\**" />
+    <None Remove="wwwroot\images\VideoThumbnails\**" />
+    <None Remove="wwwroot\images\Weather\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\CognitiveModels\ChitChatQnA.tsv" />
+    <None Include="wwwroot\CognitiveModels\GurdwaraQnA.tsv" />
+    <None Include="wwwroot\images\01d.png" />
+    <None Include="wwwroot\images\01n.png" />
+    <None Include="wwwroot\images\02d.png" />
+    <None Include="wwwroot\images\02n.png" />
+    <None Include="wwwroot\images\03d.png" />
+    <None Include="wwwroot\images\03n.png" />
+    <None Include="wwwroot\images\04d.png" />
+    <None Include="wwwroot\images\04n.png" />
+    <None Include="wwwroot\images\09d.png" />
+    <None Include="wwwroot\images\09n.png" />
+    <None Include="wwwroot\images\1.jpg" />
+    <None Include="wwwroot\images\10.jpg" />
+    <None Include="wwwroot\images\10d.png" />
+    <None Include="wwwroot\images\10n.png" />
+    <None Include="wwwroot\images\11d.png" />
+    <None Include="wwwroot\images\11n.png" />
+    <None Include="wwwroot\images\13d.png" />
+    <None Include="wwwroot\images\13n.png" />
+    <None Include="wwwroot\images\2.jpg" />
+    <None Include="wwwroot\images\3.jpg" />
+    <None Include="wwwroot\images\4.jpg" />
+    <None Include="wwwroot\images\5.jpg" />
+    <None Include="wwwroot\images\50d.png" />
+    <None Include="wwwroot\images\50n.png" />
+    <None Include="wwwroot\images\6.jpg" />
+    <None Include="wwwroot\images\7.jpg" />
+    <None Include="wwwroot\images\8.jpg" />
+    <None Include="wwwroot\images\9.jpg" />
+    <None Include="wwwroot\images\bill.png" />
+    <None Include="wwwroot\images\feedback.png" />
+    <None Include="wwwroot\images\Festivals.jpg" />
+    <None Include="wwwroot\images\festivals_bandi_chhor_divas.jpg" />
+    <None Include="wwwroot\images\festivals_gurpurab.jpeg" />
+    <None Include="wwwroot\images\festivals_hola_mohalla.jpg" />
+    <None Include="wwwroot\images\festivals_maghi.jpg" />
+    <None Include="wwwroot\images\festivals_martyrdom_of_guru_arjan.jpg" />
+    <None Include="wwwroot\images\festivals_parkash_utsav_dasveh_patshah.jpg" />
+    <None Include="wwwroot\images\festivals_vaisakhi.jpg" />
+    <None Include="wwwroot\images\menu_card_image.png" />
+    <None Include="wwwroot\images\panja_thumbnail_1.png" />
+    <None Include="wwwroot\images\panja_thumbnail_2.png" />
+    <None Include="wwwroot\images\panja_thumbnail_3.png" />
+    <None Include="wwwroot\images\pof_guest_hotel.jpg" />
+    <None Include="wwwroot\images\question.png" />
+    <None Include="wwwroot\images\royalson_hotel.jpg" />
+    <None Include="wwwroot\images\wah_continental.jpg" />
+    <None Include="wwwroot\images\wah_palace.jpg" />
+    <None Include="wwwroot\images\weather_back.jpg" />
+    <None Include="wwwroot\images\welcome_card_image.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AdaptiveCards" Version="1.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.All" />
+    <PackageReference Include="Microsoft.Azure.Cosmos.Table" Version="1.0.1" />
+    <PackageReference Include="Microsoft.Bot.Builder" Version="4.4.5" />
+    <PackageReference Include="Microsoft.Bot.Builder.AI.Luis" Version="4.4.5" />
+    <PackageReference Include="Microsoft.Bot.Builder.AI.QnA" Version="4.4.5" />
+    <PackageReference Include="Microsoft.Bot.Builder.Dialogs" Version="4.4.5" />
+    <PackageReference Include="Microsoft.Bot.Builder.Integration.AspNet.Core" Version="4.4.5" />
+    <PackageReference Include="Microsoft.Bot.Configuration" Version="4.4.5" />
+    <PackageReference Include="Microsoft.Bot.Connector" Version="4.4.5" />
+    <PackageReference Include="Microsoft.Bot.Schema" Version="4.4.5" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="2.2.4" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="wwwroot\images\01d.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\01n.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\02d.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\02n.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\03d.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\03n.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\04d.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\04n.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\09d.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\09n.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\10.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\10d.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\10n.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\11d.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\11n.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\13d.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\13n.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\3.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\4.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\5.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\50d.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\50n.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\6.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\7.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\8.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\9.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\bill.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\feedback.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\Festivals.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\festivals_bandi_chhor_divas.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\festivals_gurpurab.jpeg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\festivals_hola_mohalla.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\festivals_maghi.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\festivals_martyrdom_of_guru_arjan.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\festivals_parkash_utsav_dasveh_patshah.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\festivals_vaisakhi.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\menu_card_image.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\panja_thumbnail_1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\panja_thumbnail_2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\panja_thumbnail_3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\pof_guest_hotel.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\question.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\royalson_hotel.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\wah_continental.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\wah_palace.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\weather_back.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\welcome_card_image.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+</Project>

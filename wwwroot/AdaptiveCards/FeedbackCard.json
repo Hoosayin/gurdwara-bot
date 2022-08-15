@@ -1,0 +1,85 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "Image",
+            "id": "Image",
+            "horizontalAlignment": "Center",
+            "url": "https://image.flaticon.com/icons/svg/1491/1491418.svg",
+            "size": "Medium"
+        },
+        {
+            "type": "TextBlock",
+            "size": "Large",
+            "weight": "Bolder",
+            "text": "FEEDBACK",
+            "isSubtle": true
+        },
+        {
+            "type": "Input.Text",
+            "id": "Name",
+            "placeholder": "Name"
+        },
+        {
+            "type": "Input.Text",
+            "id": "Email",
+            "placeholder": "Email",
+            "style": "Email"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Report a Problem | Suggest a New Feature"
+        },
+        {
+            "type": "Input.Text",
+            "id": "Comments",
+            "value": "No Comments",
+            "placeholder": "Comments",
+            "isMultiline": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "How would you rate Gurdwara Bot?"
+        },
+        {
+            "type": "Input.ChoiceSet",
+            "id": "Rating",
+            "value": "1",
+          "choices": [
+            {
+              "title": "Excellent",
+              "value": "1"
+            },
+            {
+              "title": "Good",
+              "value": "2"
+            },
+            {
+              "title": "Average",
+              "value": "3"
+            },
+            {
+              "title": "Not Good",
+              "value": "4"
+            },
+            {
+              "title": "Bad",
+              "value": "5"
+            }
+          ],
+            "style": "expanded"
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.Submit",
+            "title": "Submit",
+            "data": {
+                "dataId": "feedback_data"
+            }
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.0",
+    "speak": "What kind of feedback do you have?"
+}

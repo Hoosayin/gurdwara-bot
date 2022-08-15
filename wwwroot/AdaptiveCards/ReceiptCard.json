@@ -1,0 +1,67 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "Medium",
+      "weight": "Bolder",
+      "text": "Sri Panja Sahib Sarai Booking - Request"
+    },
+    {
+      "type": "ColumnSet",
+      "id": "ColumnSet",
+      "separator": true,
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "FactSet",
+              "id": "Facts",
+              "facts": [
+                {
+                  "title": "Expiration date",
+                  "value": "May 2, 2015"
+                },
+                {
+                  "title": "Attendees",
+                  "value": "3 People"
+                },
+                {
+                  "title": "Diet",
+                  "value": "2 Dietary Requests"
+                },
+                {
+                  "title": "Phone",
+                  "value": "03075098938"
+                },
+                {
+                  "title": "Name",
+                  "value": "Hussain Naeem"
+                },
+                {
+                  "title": "Email",
+                  "value": "Husain.sims@gmail.com"
+                }
+              ]
+            }
+          ],
+          "width": "stretch"
+        },
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://pp.userapi.com/c847018/v847018625/1d7e94/ALXls7vg0v0.jpg",
+              "size": "Medium"
+            }
+          ],
+          "width": "auto"
+        }
+      ]
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}

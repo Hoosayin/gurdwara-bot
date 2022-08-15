@@ -1,0 +1,51 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Image",
+      "id": "festivalImage",
+      "url": "https://pp.userapi.com/c850220/v850220980/fdd99/Y9seLFvl_80.jpg"
+    },
+    {
+      "type": "TextBlock",
+      "id": "festivalName",
+      "size": "Large",
+      "weight": "Bolder",
+      "text": "Vaisakhi"
+    },
+    {
+      "type": "TextBlock",
+      "id": "festivalType",
+      "spacing": "None",
+      "text": "Festival"
+    },
+    {
+      "type": "TextBlock",
+      "id": "festivalDescription",
+      "separator": true,
+      "text": "Vaisakhi, also known as Baisakhi, Vaishakhi, or Vasakhi is a historical and religious festival in Sikhism. It is usually celebrated on 13 or 14 April every year. Vaisakhi marks the Sikh new year and commemorates the formation of Khalsa panth of warriors under Guru Gobind Singh in 1699.",
+      "isSubtle": true,
+      "wrap": true
+    },
+    {
+      "type": "FactSet",
+      "id": "festivalFacts",
+      "facts": [
+        {
+          "title": "Observances:",
+          "value": "Celebration of an anniversary related to the lives of the Sikh gurus."
+        },
+        {
+          "title": "Date:",
+          "value": "November 12"
+        },
+        {
+          "title": "Significance:",
+          "value": "Guru Nanak's Birth Anniversary"
+        }
+      ]
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}

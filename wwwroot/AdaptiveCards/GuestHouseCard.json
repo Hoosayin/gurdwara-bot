@@ -1,0 +1,55 @@
+﻿{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "Image",
+            "id": "Image",
+            "horizontalAlignment": "Center",
+            "url": "https://pp.userapi.com/c850636/v850636478/cbb66/uXwZXSLk2hs.jpg"
+        },
+        {
+            "type": "TextBlock",
+            "id": "Name",
+            "spacing": "None",
+            "size": "Large",
+            "weight": "Bolder",
+            "text": "POF Guest House",
+            "isSubtle": true,
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "id": "Rating",
+            "spacing": "None",
+            "text": "4.4 ★★★★☆ (87) · Reviews",
+            "isSubtle": true
+        },
+        {
+            "type": "FactSet",
+            "id": "Facts",
+            "separator": true,
+            "facts": [
+                {
+                    "title": "Address",
+                    "value": "Hassan Abdal, Attock, Punjab"
+                },
+                {
+                    "title": "Phone",
+                    "value": "+923345678191"
+                }
+            ]
+        }
+    ],
+    "actions": [
+      {
+        "type": "Action.OpenUrl",
+        "id": "Directions",
+        "title": "Get Directions",
+        "iconUrl": "https://img.icons8.com/color/180/google-maps.png",
+        "url": "https://goo.gl/maps/m4YuUwLuRt72"
+      }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.0",
+    "speak": "Gurdwara Panja Sahib is located in Hasan Abdal, Pakistan. To get directions, please click on the button below."
+}

@@ -1,0 +1,150 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "Medium",
+      "weight": "Bolder",
+      "text": "Sri Panja Sahib at a Glance!"
+    },
+    {
+      "type": "Image",
+      "url": "https://pp.userapi.com/c850228/v850228877/f0239/sFR3F8n0P98.jpg",
+      "size": "Stretch"
+    },
+    {
+      "type": "TextBlock",
+      "weight": "Bolder",
+      "text": "What type of information do you prefer?",
+      "wrap": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.ShowCard",
+      "title": "History",
+      "card": {
+        "type": "AdaptiveCard",
+        "style": "emphasis",
+        "body": [
+          {
+            "type": "TextBlock",
+            "horizontalAlignment": "Center",
+            "weight": "Bolder",
+            "text": "\"*People without the knowledge of their past history, origin and culture is like a tree without roots.*\"",
+            "isSubtle": true,
+            "wrap": true
+          },
+          {
+            "type": "ColumnSet",
+            "columns": [
+              {
+                "type": "Column",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "**Shri Guru Nanak Dev Ji** along with **Bhai Mardana Ji** reached Hasan Abdal in Baisakh Samwat **1578 B.K**. corresponding to **1521 ACE** in the summer season. Under a shady cool tree, Guru Nanak and Bhai Mardana started reciting Kirtan and their devotees gathered around. This annoyed a local saint, **Shah Wali Qandhari**.",
+                    "wrap": true
+                  }
+                ],
+                "width": "stretch"
+              },
+              {
+                "type": "Column",
+                "items": [
+                  {
+                    "type": "Image",
+                    "url": "https://pp.userapi.com/c848536/v848536238/1420cc/9OGBjXftHpo.jpg"
+                  }
+                ],
+                "width": "stretch"
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "text": "According to legend, Bhai Mardana was sent three times to Shah Wali Qandhari by (Guru Nanak) so that he would provide him with some water to quench his thirst. Wali Qandhari refused his request and was rude to him. In spite of this, Mardana still very politely stuck to his demand. The Wali remarked : **\"Why don't you ask your Master whom you serve?\"**\n\nMardana Ji went back to the Guru in a miserable state and said **\"Oh lord! I prefer death to thirst but will not approach Wali the egoist.\"**\n\nThe Guru replied **\"Oh Bhai Mardana ji! Repeat the Name of God, the Almighty; and drink the water to your heart's content.\"**\n\nThe Guru put aside a big rock lying nearby and a pure fountain of water sprang up and began to flow endlessly. Bhai Mardana quenched his thirst and felt grateful to the Guru.\n\nOn the other hand, the fountain of Shah Wali Qandhari dried up. On witnessing this, the Wali in his rage threw a part of a mountain towards the Guru from the top of the hill. The Guru stopped the hurled rock with his hand leaving his hand print in the rock.\n\nObserving that miracle, Wali became the Guru's devotee.\n\nThis holy and revered place was named **Panja Sahib** by **Hari Singh Nalwa**, the most famous general of the Kingdom of the Sikhs. He is credited with having built the first gurdwara at this place.",
+            "wrap": true
+          }
+        ],
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "speak": "Sorry for these lengthy paragraphs. But believe you me, this explains the history of Panja Sahib."
+      }
+    },
+    {
+      "type": "Action.ShowCard",
+      "title": "Gallery",
+      "card": {
+        "type": "AdaptiveCard",
+        "style": "emphasis",
+        "body": [
+          {
+            "type": "TextBlock",
+            "horizontalAlignment": "Left",
+            "weight": "Bolder",
+            "text": "Here are some cool photos that I found from the Internet!",
+            "wrap": true
+          },
+          {
+            "type": "TextBlock",
+            "text": "Sorry, some of them may be repeats.",
+            "isSubtle": true,
+            "wrap": true
+          },
+          {
+            "type": "ImageSet",
+            "horizontalAlignment": "Center",
+            "separator": true,
+            "images": [
+              {
+                "type": "Image",
+                "url": "https://pp.userapi.com/c846418/v846418243/1b1b24/DHdFoA3TG3g.jpg",
+                "size": "Medium"
+              },
+              {
+                "type": "Image",
+                "url": "https://pp.userapi.com/c846418/v846418243/1b1b2b/ijOcGE-KfDA.jpg",
+                "size": "Medium"
+              },
+              {
+                "type": "Image",
+                "url": "https://pp.userapi.com/c846418/v846418243/1b1b34/6OygeOkPBqY.jpg",
+                "size": "Medium"
+              },
+              {
+                "type": "Image",
+                "url": "https://pp.userapi.com/c846418/v846418243/1b1b3c/tXrLmxlonQ4.jpg",
+                "size": "Medium"
+              },
+              {
+                "type": "Image",
+                "url": "https://pp.userapi.com/c846418/v846418243/1b1b43/HBqHwNJ4Yu0.jpg",
+                "size": "Medium"
+              },
+              {
+                "type": "Image",
+                "url": "https://pp.userapi.com/c846418/v846418243/1b1b4c/PmiXB1-nons.jpg",
+                "size": "Medium"
+              },
+              {
+                "type": "Image",
+                "url": "https://pp.userapi.com/c846418/v846418243/1b1b55/96Bo5EgNbhY.jpg",
+                "size": "Medium"
+              },
+              {
+                "type": "Image",
+                "url": "https://pp.userapi.com/c846418/v846418243/1b1b5d/Pp2NILBXyNo.jpg",
+                "size": "Medium"
+              }
+            ]
+          }
+        ],
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "speak": "Here are some cool photos."
+      }
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0",
+  "speak": "I love to provide information about Sri Panja Sahib. I don't want you to be under-informed. So it's better to get an instant overview of this gurdwara. What type of information do you prefer?"
+}

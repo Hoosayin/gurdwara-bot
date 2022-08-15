@@ -1,0 +1,56 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "Medium",
+      "weight": "Bolder",
+      "text": "Sarai Booking - Prerequisites"
+    },
+    {
+      "type": "ColumnSet",
+      "id": "ColumnSet",
+      "separator": true,
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Before I start booking a room for you, make sure you are registered on our website. Your information is important for request approval. Receipt for approved request can be viewed on your profile.\nThe rooms are completely free of cost.\nYour booking can be cancelled if either your information is not valid, or we have all of our rooms booked.",
+              "wrap": true
+            },
+            {
+              "type": "FactSet",
+              "facts": [
+                {
+                  "title": "Your Account",
+                  "value": "Required"
+                },
+                {
+                  "title": "Valid Information",
+                  "value": "Required"
+                }
+              ]
+            }
+          ],
+          "width": "stretch"
+        },
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "Image",
+              "style": "Person",
+              "url": "https://pp.userapi.com/c850036/v850036892/1711d9/QKO57vkrEMY.jpg",
+              "size": "Medium"
+            }
+          ],
+          "width": "auto"
+        }
+      ]
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}
